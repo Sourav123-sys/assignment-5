@@ -1,0 +1,79 @@
+body{
+    background-color: #edd263;
+}
+#logo{
+    font-family: 'Lemonada', cursive;
+    color: #3b2d64;
+    font-weight: 1000;
+    font-size: 150%;
+    text-shadow: 2px 1px  gray;
+}
+#logoPic{
+    height: 130px;
+    width: 130px;
+}
+#searchMeal{
+    border: 2px solid #3b2d64;
+    border-radius: 10px;
+}
+#navbarNavAltMarkup{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.hover-NavBtn:hover{
+    background-color: #3b2d64;
+    border-radius: 10px;
+    color: whitesmoke !important;
+    box-shadow:4px 4px 4px  gray ;  
+}
+.navBtn{
+    background-color: #3b2d64;
+    border-radius: 10px;
+    color: whitesmoke !important;
+    box-shadow:4px 4px 4px gray ; 
+}
+#searchBtn{
+    background-color:#3b2d64 ;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.all-food{
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #3b2d64;
+    background-color:#edd263 ;
+    cursor: pointer;
+}
+.all-food:hover{
+    background-color:#3b2d64 ;
+    color: whitesmoke;
+}
+#food{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+#foodImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+}
+#foodText{
+    font-family: 'Cabin', sans-serif;
+}
+#foodImageDetails{
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
+.foodTextDetails{
+    color: #3b2d64;
+    font-family: 'Cabin', sans-serif;
+}
+
+    
+
